@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "black>=26.1.0",
     "jupyterlab>=4.5.2",
     "jupyterlab-cell-flash>=0.4.0",
     "jupyterlab-code-formatter>=3.0.2",
@@ -14,6 +15,9 @@ dependencies = [
     "jupyterlab-vim>=4.1.4",
     "jupyterthemes>=0.20.0",
     "jupytext>=1.19.1",
+    "lckr-jupyterlab-variableinspector>=3.2.4",
     "numpy>=2.4.1",
     "pandas>=3.0.0",
+    "scipy>=1.17.0",
+    "sympy>=1.14.0",
 ]
